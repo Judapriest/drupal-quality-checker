@@ -1,7 +1,7 @@
 parameters:
   ascii:
-    failed: vendor/Judapriest/drupal-quality-checker/resources/ascii/grumpy.txt
-    succeeded: vendor/Judapriest/drupal-quality-checker/resources/ascii/happy.txt
+    failed: vendor/Judapriest/drupal-quality-checker/resources/ascii/ecedi_grumpy.txt
+    succeeded: vendor/Judapriest/drupal-quality-checker/resources/ascii/ecedi_happy.txt
   git_dir: .
   bin_dir: bin
   tasks:
