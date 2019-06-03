@@ -10,8 +10,8 @@ Provides set of libraries to easily setup code quality checks based on [GrumPHP]
 
 ## Install
 
-1. Add `Judapriest/drupal-quality-checker` to `composer.json` (like [here](https://github.com/vijaycs85/modal_config/blob/8.x-1.x/composer.json#L21)) or just `composer require --dev Judapriest/drupal-quality-checker`
-2. Replace `grumphp.yml` in project's root directory (not Drupal root directory) with `vendor/Judapriest/drupal-quality-checker/grumphp.yml.dist`
+1. Add `judapriest/drupal-quality-checker` to `composer.json` (like [here](https://github.com/vijaycs85/modal_config/blob/8.x-1.x/composer.json#L21)) or just `composer require --dev judapriest/drupal-quality-checker`
+2. Replace `grumphp.yml` in project's root directory (not Drupal root directory) with `vendor/judapriest/drupal-quality-checker/grumphp.yml.dist`
 
 That's it. Now, all tasks (listed below) run on every `git commit`.
 
