@@ -1,26 +1,27 @@
 {
-  "name": "vijaycs85/drupal-quality-checker",
-  "description": "Setups code quality checking tools for Drupal project.",
+  "name": "Judapriest/drupal-quality-checker",
+  "description": "This a fork from vijaycs85/drupal-quality-checker, it's very specific for Ecedi starter kit & distribution. Setups code quality checking tools for Drupal project.",
   "type": "project",
+  "keywords": ["drupal","code check","quality check"],
   "license": "MIT",
-  "homepage": "https://github.com/vijaycs85/drupal-quality-checker",
+  "homepage": "https://github.com/Judapriest/drupal-quality-checker",
   "authors": [
     {
-      "name": "Vijaya Chandran Mani",
-      "homepage": "https://www.drupal.org/u/vijaycs85",
+      "name": "Benjamin COUDERC",
+      "email": "ben.couderc@gmail.com"
+      "homepage": "https://www.drupal.org/u/judapriest",
       "role": "Maintainer"
     }
   ],
   "require": {
-    "phpro/grumphp": "^0.11.6",
-    "composer/composer": "~1.0",
-    "drupal/coder": "^8.2.12",
-    "sebastian/phpcpd": "^3.0",
+    "phpro/grumphp": "^0.15.2",
+    "drupal/coder": "^8.3",
+    "sebastian/phpcpd": "^4.0",
     "dealerdirect/phpcodesniffer-composer-installer": "*",
-    "jakub-onderka/php-parallel-lint": "^0.9.2"
+    "jakub-onderka/php-parallel-lint": "^1.0"
   },
   "support": {
-    "issues": "https://github.com/vijaycs85/drupal-quality-checker/issues",
-    "source": "https://github.com/vijaycs85/drupal-quality-checker"
+    "issues": "https://github.com/Judapriest/drupal-quality-checker/issues",
+    "source": "https://github.com/Judapriest/drupal-quality-checker"
   }
 }
