@@ -1,9 +1,9 @@
 parameters:
   ascii:
-    failed: vendor/vijaycs85/drupal-quality-checker/resources/ascii/grumpy.txt
-    succeeded: vendor/vijaycs85/drupal-quality-checker/resources/ascii/happy.txt
+    failed: vendor/Judapriest/drupal-quality-checker/resources/ascii/grumpy.txt
+    succeeded: vendor/Judapriest/drupal-quality-checker/resources/ascii/happy.txt
   git_dir: .
-  bin_dir: vendor/bin
+  bin_dir: bin
   tasks:
     phplint: ~
     yamllint: ~
