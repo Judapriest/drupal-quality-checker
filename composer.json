@@ -1,5 +1,5 @@
 {
-  "name": "Judapriest/drupal-quality-checker",
+  "name": "judapriest/drupal-quality-checker",
   "description": "This a fork from vijaycs85/drupal-quality-checker, it's very specific for Ecedi starter kit & distribution. Setups code quality checking tools for Drupal project.",
   "type": "project",
   "keywords": ["drupal","code check","quality check"],
