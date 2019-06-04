@@ -43,3 +43,4 @@ Implemented in [Modal Configuration](https://github.com/vijaycs85/modal_config) 
 ## Uninstall
 1. You can remove the package wihg `composer require --dev judapriest/drupal-quality-checker`.
 2. Remove the `grumphp.yml` in project's root directory if it's there.
+3. Modify the .git/hooks/pre-commit and .git/hooks/commit-msg if necessary
