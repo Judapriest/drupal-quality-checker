@@ -14,9 +14,9 @@
     }
   ],
   "require": {
-    "phpro/grumphp": "^0.15.2",
+    "phpro/grumphp": "^0.15",
     "drupal/coder": "^8.3",
-    "sebastian/phpcpd": "^4.0",
+    "sebastian/phpcpd": ">3",
     "dealerdirect/phpcodesniffer-composer-installer": "*",
     "jakub-onderka/php-parallel-lint": "^1.0"
   },
