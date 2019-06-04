@@ -39,3 +39,7 @@ Long list of additional checks/validators available [here](https://github.com/ph
 
 ## Demo
 Implemented in [Modal Configuration](https://github.com/vijaycs85/modal_config) module.
+
+## Uninstall
+1. You can remove the package wihg `composer require --dev judapriest/drupal-quality-checker`.
+2. Remove the `grumphp.yml` in project's root directory if it's there.
