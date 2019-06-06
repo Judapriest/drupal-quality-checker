@@ -11,6 +11,6 @@ parameters:
     jsonlint: ~
     phpcpd: ~
     phpcpd:
-      directory: './src'
+      exclude: ['vendor', 'web/core', 'web/sites', 'web/modules/contrib']
     phpcs:
       standard: Drupal
