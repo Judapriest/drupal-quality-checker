@@ -14,3 +14,4 @@ parameters:
       exclude: ['vendor', 'web/core', 'web/sites', 'web/modules/contrib']
     phpcs:
       standard: Drupal
+      triggered_by: [inc, lib, php, js, css]
