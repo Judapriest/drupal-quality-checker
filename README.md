@@ -28,6 +28,14 @@ That's it. Now, all tasks (listed below) run on every `git commit`.
 
 Long list of additional checks/validators available [here](https://github.com/phpro/grumphp/blob/master/doc/tasks.md#tasks-1).
 
+## How to use
+
+### Pre-configured
+When installed (see #install), it's configure to run on every `git commit`. It will only analyse files you are commiting. 
+
+### Stand alone run
+You can also use `bin/grumphp run` from the root directory to analyse all existing file (minus the exclude or ignore files define in the grumphp.yml file).
+
 ## Sample
 
 ### Pass
