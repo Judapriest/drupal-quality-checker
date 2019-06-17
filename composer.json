@@ -20,6 +20,9 @@
     "dealerdirect/phpcodesniffer-composer-installer": "*",
     "jakub-onderka/php-parallel-lint": "^1.0"
   },
+  "conflict": {
+    "vijaycs85/drupal-quality-checker": "*"
+  },
   "support": {
     "issues": "https://github.com/Judapriest/drupal-quality-checker/issues",
     "source": "https://github.com/Judapriest/drupal-quality-checker"
